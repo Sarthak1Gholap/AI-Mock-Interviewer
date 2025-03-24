@@ -25,9 +25,7 @@ export const Question = pgTable('question', {
     mockId: varchar('mockId').notNull()
 });
 
-
-
-export const UserAnswer = pgTable('userAnswer',{
+export const UserAnswer = pgTable('user_answer', {  // Changed from 'userAnswer' to 'user_answer'
     id: serial('id').primaryKey(),
     mockIdRef: varchar('mockId').notNull(),
     question: varchar('question').notNull(),
@@ -37,7 +35,7 @@ export const UserAnswer = pgTable('userAnswer',{
     rating: varchar('rating'),
     userEmail: varchar('userEmail'),
     createdAt: varchar('createdAt')
-})
+});
 
 export const Newsletter = pgTable('newsletter',{
     id: serial('id').primaryKey(),
