@@ -46,7 +46,7 @@ To use the AI-Powered Mock Interview Platform, follow these guidelines:
 
 ## Feedback
 
-If you have any feedback, please reach me at [mohamedamaan319@gmail.com](mailto:brokers1529@gmail.com)
+If you have any feedback, please reach me at [brokers1529@gmail.com](mailto:brokers1529@gmail.com)
 
 
 ## Contributing
